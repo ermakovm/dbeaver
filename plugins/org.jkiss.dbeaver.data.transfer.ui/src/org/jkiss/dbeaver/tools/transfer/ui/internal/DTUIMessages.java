@@ -34,8 +34,22 @@ public class DTUIMessages extends NLS {
 	public static String data_transfer_wizard_final_group_settings_target;
 	public static String data_transfer_wizard_final_name;
 	public static String data_transfer_wizard_final_title;
-
-
+	public static String data_transfer_wizard_settings_name;
+	public static String data_transfer_wizard_settings_title;
+	public static String data_transfer_wizard_settings_description;
+	public static String data_transfer_wizard_settings_group_load_settings;
+	public static String data_transfer_wizard_settings_group_performance;
+	public static String data_transfer_wizard_settings_group_general;
+	public static String data_transfer_wizard_settings_checkbox_auto_generate_columns;
+	public static String data_transfer_wizard_settings_checkbox_auto_generate_columns_tip;
+	public static String data_transfer_wizard_settings_checkbox_truncate_tables;
+	public static String data_transfer_wizard_settings_checkbox_use_transactions;
+	public static String data_transfer_wizard_settings_checkbox_open_table_editor;
+	public static String data_transfer_wizard_settings_checkbox_show_final_message;
+	public static String data_transfer_wizard_settings_label_commit_after_row;
+	public static String data_transfer_wizard_settings_truncate_attention_name;
+	public static String data_transfer_wizard_settings_truncate_attention_text;
+	
 	static {
 		// initialize resource bundle
 		NLS.initializeMessages(BUNDLE_NAME, DTUIMessages.class);
